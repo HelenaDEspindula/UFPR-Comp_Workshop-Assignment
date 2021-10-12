@@ -1,0 +1,2 @@
+periodo: periodo.c lcrandom.c
+	gcc periodo.c lcrandom.c -o periodo -Wall

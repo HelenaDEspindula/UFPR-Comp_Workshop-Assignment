@@ -1,0 +1,5 @@
+histograma: histograma.c lcrandom.c
+	gcc histograma.c lcrandom.c -o histograma -Wall
+
+periodo: periodo.c lcrandom.c
+	gcc periodo.c lcrandom.c -o periodo -Wall
